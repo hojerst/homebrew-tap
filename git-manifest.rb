@@ -12,7 +12,7 @@ class GitManifest < Formula
   depends_on "git"
 
   def install
-    # todo
+    bin.install "git-manifest"
   end
 
   test do
