@@ -8,6 +8,9 @@ class GitManifest < Formula
   sha256 "5c23f8de99193925b869608e837267d8a27cfb747e9d608abcb0b50f89a7de1f"
   license "MIT"
 
+  depends_on "bash"
+  depends_on "git"
+
   def install
     # todo
   end
