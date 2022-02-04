@@ -15,7 +15,7 @@ class GitManifest < Formula
   end
 
   test do
-    v = `#{bin}/git-manifest version`
+    v = `#{bin}/git-manifest --version`
     assert_equal version, v.chomp, "git-manifest version not correct expected: #{version}, got: #{v}"
   end
 end
